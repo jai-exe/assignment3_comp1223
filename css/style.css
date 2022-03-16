@@ -1,0 +1,120 @@
+body{
+    font-family: "Merriweather",serif;
+    font-style: normal;
+    background: #fcfefe;
+    color: #071a52;
+}
+
+nav {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    background: #111d5e;
+    font-family: "Lucida Bright", serif;
+    font-size: 1.25em;
+}
+nav a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+a:hover{
+    background-color: lightblue;
+}
+.active{
+    background-color: #b21f66;
+}
+
+table, tr, td {
+    border: 1px solid;
+    border-color: #252a34;
+    padding: 5px;
+    border-spacing: 0;
+    margin: 25px;
+}
+
+td, th {
+    width: 150px;
+    height: 25px;
+    white-space: nowrap;
+}
+
+h2, h3, h4, h5 {
+    margin: 0.75em;
+    font-family: "Montserrat",sans-serif;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+hr{
+    border: 2px solid;
+}
+
+h1 {
+    font-family: "Montserrat",sans-serif;
+    text-align: center;
+    text-decoration: underline;
+    font-weight: bold;
+}
+.right {
+         float: right;
+}
+ .left {
+         float: left;
+ }
+ hr{
+        clear: both;
+}
+#backtotop {
+                display: flex;
+                width: 10vw;
+                height: 5vh;
+                margin-top: auto;
+                margin-bottom: auto;
+}
+div.contact {
+                width: 40vw;
+                margin-right: auto;
+                margin-left: auto;
+}
+#sal {
+                text-align: left;
+                margin-left: 2vw;
+}
+#jai {
+                text-align: right;
+                margin-right: 2vw;
+}
+#gap {
+                clear: both;
+}
+.tooltip {
+                position: relative;
+                display: inline-block;
+}
+.tooltip .tooltiptext {
+                visibility: hidden;
+                width: 120px;
+                bottom: 100%;
+                left: 50%;
+                margin-left: -60px;
+                background-color: black;
+                color: #fff;
+                text-align: center;
+                padding: 5px 0;
+                border-radius: 6px;
+                position: absolute;
+                z-index: 1;
+}
+.tooltip:hover .tooltiptext {
+                visibility: visible;
+}
+div.tooltip {
+                text-align: center;
+                margin-left: auto;
+                margin-right: auto;
+}

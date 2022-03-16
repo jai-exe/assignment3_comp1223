@@ -1,0 +1,22 @@
+
+        
+            
+            iframe {
+                display: flex;
+                margin-left: auto;
+                margin-right: auto;
+                width: 60vw;
+                height: 70vh;
+            }
+            .image {
+                display: flex;
+                width: 30vw;
+                height: 40vh;
+            }
+            p{
+                display: flex;
+                width: 50vw;
+            }
+            
+            
+        
